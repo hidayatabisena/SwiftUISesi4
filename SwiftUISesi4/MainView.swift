@@ -47,25 +47,24 @@ struct MainView: View {
                 }
                 .tag(Tabs.watch)
                 
-                Text("Loans".uppercased())
-                    .font(.system(.largeTitle, design: .rounded))
+                LoanListView()
                     .tabItem {
                         Image(systemName: "rectangle.and.text.magnifyingglass")
                         Text("Loans")
                     }
                     .tag(Tabs.loans)
                 
-                Text("Profile".uppercased())
-                    .font(.system(.largeTitle, design: .rounded))
+                SettingsView()
                     .tabItem {
-                        Image(systemName: "person")
-                        Text("Profile")
+                        Image(systemName: "slider.horizontal.3")
+                        Text("Setting")
                     }
                     .tag(Tabs.profile)
                 
             } //: TABVIEW
             .tint(.purple)
             .navigationTitle(selectedTab.rawValue.capitalized)
+            .navigationBarTitleDisplayMode(.inline)
             
         } //: NAVIGATION
         

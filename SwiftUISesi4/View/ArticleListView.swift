@@ -11,7 +11,7 @@ import CachedAsyncImage
 
 struct ArticleListView: View {
     // MARK: - PROPERTIES
-    @State var articles = dummyArticles
+    @State var articles = dummyArticles.sorted { $0.title < $1.title }
     @State private var isLoading: Bool = true
     
     // MARK: - BODY
