@@ -1,6 +1,23 @@
-# SwiftUI TabView & Swipe Action
+# SwiftUI Sesi 4, 5 dan 6
 
-Ini adalah materi pembelajaran sesi 4 kelas iOS App dengan framework SwiftUI.
+Topik pembahasan:
+### Sesi 4
+- TabView
+- Swipe Action
+- Activity View
+- ContextMenu
+- Swift Package Manager
+
+### Sesi 5
+- AppStorage
+- Dark Mode / Light Mode
+- Fetch data dari web API
+- Parsing JSON data
+
+### Sesi 6
+- SwiftUI Grid Layout
+- SwiftUI Animation
+- SwiftUI Transition
 
 ### Demo
 
