@@ -45,7 +45,7 @@ struct MainView: View {
                     Image(systemName: "play.rectangle")
                     Text("Watch")
                 }
-                .tag(Tabs.watch)
+                .tag(Tabs.gallery)
                 
                 LoanListView()
                     .tabItem {
@@ -81,7 +81,7 @@ struct MainView_Previews: PreviewProvider {
 // MARK: - ENUM
 enum Tabs: String {
     case browse
-    case watch
+    case gallery
     case loans
     case profile
 }
